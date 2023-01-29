@@ -1,0 +1,21 @@
+{
+    "name": "parentyazilim/api-v2-php",
+    "description": "Parent Yazılım v2 PHP Api Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Parent Yazılım",
+        "email": "info@parent.com.tr"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Parent\\": "src"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev"
+}
